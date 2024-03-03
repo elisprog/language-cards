@@ -1,0 +1,11 @@
+.main {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 0.5fr;
+    border-bottom: 2px solid rgb(85, 45, 85);
+}
+
+.section {
+    color: aliceblue;
+    background-color: rgb(199, 119, 242);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
