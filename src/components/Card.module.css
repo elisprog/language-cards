@@ -1,0 +1,35 @@
+.main {
+display: flex-inline;
+width: 50%;
+margin: 5%;
+justify-content: center;
+align-content: center;
+border: 2px solid rgb(2, 2, 148);
+}
+
+
+.word {
+    display: flex-inline;
+    min-height: 2em;
+    min-width: 30%;
+    background-color: rgb(146, 144, 240);
+    font-size: larger;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+.translation {
+    display: flex-inline;
+    min-height: 2em;
+    min-width: 30%;
+    background-color: rgb(219, 219, 252);
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topic {
+    display: flex-inline;
+    min-height: 2em;
+    min-width: 30%;
+    background-color: rgb(189, 189, 240);
+}
