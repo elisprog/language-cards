@@ -1,26 +1,26 @@
 .main {
-display: flex-inline;
+display: inline-flex;
 width: 50%;
 margin: 5%;
-justify-content: center;
+justify-content: space-around;
 align-content: center;
 border: 2px solid rgb(2, 2, 148);
 }
 
 
 .word {
-    display: flex-inline;
+    display: inline-flex;
     min-height: 2em;
     min-width: 30%;
     color:aliceblue;
     background-color: rgb(138, 21, 233);
     font-size: larger;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif
     
 }
 
 .translation {
-    display: flex-inline;
+    display: inline-flex;
     min-height: 2em;
     min-width: 30%;
     background-color: rgb(199, 119, 242);
@@ -29,8 +29,17 @@ border: 2px solid rgb(2, 2, 148);
 }
 
 .topic {
-    display: flex-inline;
+    display: inline-flex;
     min-height: 2em;
     min-width: 30%;
+    font-size: larger;
     background-color: rgb(246, 194, 241);
+}
+
+.swipe {
+   display: flex;
+   align-items: center;
+   height: 8vh;
+   color:aliceblue;
+   background-color: rgb(33, 99, 135);
 }

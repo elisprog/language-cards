@@ -3,15 +3,16 @@ import { useState } from "react"
 
 function LineTable () {
     const handleClick = () => {
-        setClick(!click)
+        setClick(false)
         }
-    let edit = <button onClick={handleClick}>edit</button>
-    const [click, setClick] = useState(true);
 
-if (setClick) {
-    let edit =  <button onClick={handleClick}>stop editing</button>
+    const [click, setClick] = useState(true);
+    let edit = <button onClick={handleClick}>edit</button>
+
+if (!click) {
+   edit = <button onClick={handleClick}>stop editing</button>
 } else {
-    let edit =  <button onClick={handleClick}>edit</button>
+    edit = <button onClick={handleClick}>edit</button>
 }
 
 return (
